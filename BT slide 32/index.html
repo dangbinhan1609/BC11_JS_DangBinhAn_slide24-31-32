@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Bài tập 1: Nhập vào ngày,tháng ,năm</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Ngày</label>
+                                <input type="text"  id="Ngay"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Tháng</label>
+                                <input type="text"  id="Thang"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Năm</label>
+                                <input type="text" id="Nam" />
+                            </div>
+                            <button id="btnNgayTruoc" class="btn btn-success">
+                                Ngày Trước
+                            </button>
+                            <button id="btnNgayTiepTheo" class="btn btn-success">
+                                Ngày tiếp theo
+                            </button>
+
+
+                        </form>
+                    </div>
+                    <div id="divNam" class="card-footer text-muted"></div>
+                    <div id="divNgay" class="card-footer text-muted"></div>
+                    <div id="divThang" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Bài tập 2: Nhập vào tháng ,năm</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Tháng</label>
+                                <input type="text"  id="txtThang"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Năm</label>
+                                <input type="text" id="txtNam" />
+                            </div>
+                            
+                            <button id="btnSoNgay" class="btn btn-success">
+                                Số ngày của tháng
+                            </button>
+                        </form>
+                    </div>
+                    <div id="divSoNgay" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Bài tập 3: Đọc 3 chữ số</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Số Nguyên </label>
+                                <input type="text"  id="txtSo"/>
+                            </div>
+                            
+                            
+                            
+                            <button id="btnCachDoc" class="btn btn-success">
+                                Cách đọc
+                            </button>
+                        </form>
+                    </div>
+                    <div id="divCachDoc" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Bài tập 4: Sinh viên nào xa trường nhất</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Sinh viên A</label>
+                                <input type="number"  id="txtSinhVienA1" placeholder="Tọa độ xA"/>
+                                <input type="number"  id="txtSinhVienA2" placeholder="Tọa độ yA"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Sinh viên B</label>
+                                <input type="number"  id="txtSinhVienB1" placeholder="Tọa độ xB"/>
+                                <input type="number"  id="txtSinhVienB2" placeholder="Tọa độ yB"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Sinh viên C</label>
+                                <input type="number" id="txtSinhVienC1" placeholder="Tọa độ xC"/>
+                                <input type="number"  id="txtSinhVienC2" placeholder="Tọa độ yC"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Trường học có tọa độ (3,4)</label>
+                                
+                            </div>
+                            <button id="btnKhoangCach" class="btn btn-success">
+                                Sinh viên xa trường nhất
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div id="divKhoangCach" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./JS/baitap1.js"></script>
+    <script src="./JS/baitap2.js"></script>
+    <script src="./JS/baitap3.js"></script>
+    <script src="./JS/baitap4.js"></script>
+</body>
+</html>

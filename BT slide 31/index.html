@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Sắp xếp 3 số nguyên</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Số nguyên 1</label>
+                                <input type="text"  id="txtSo1"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Số nguyên 2</label>
+                                <input type="text" id="txtSo2" />
+                            </div>
+                            <div class="form-group">
+                                <label>Số Nguyên 3</label>
+                                <input type="text" id="txtSo3" />
+                            </div>
+                            <button id="btnSoNguyen" class="btn btn-success">
+                                Sắp xếp
+                            </button>
+                        </form>
+                    </div>
+                    <div id="divSoNguyen" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Chào Hỏi Thành Viên Trong Gia Đình</div>
+                    <div class="card-body">
+                        <h1 class="title text-danger">Ai là người sử dụng máy</h1>
+                        <ul style="list-style-type: square;">
+                            <li>
+                                <label for="">Bố</label>
+                                <input id="txtBo" type="radio" name="select" value="Bo">
+                            </li>
+                            <li>
+                                <label for="">Mẹ</label>
+                                <input id="txtMe" type="radio" name="select" value="Me">
+                            </li>
+                            <li>
+                                <label for="">Anh Trai</label>
+                                <input id="txtAnhTrai" type="radio" name="select" value="AnhTrai">
+                            </li>
+                            <li>
+                                <label for="">Em Gái</label>
+                                <input id="txtEmGai" type="radio" name="select" value="EmGai">
+                            </li>
+                        </ul>
+                        <button id="btnChaoHoi" class="btn btn-success">
+                            Chào Hỏi
+                        </button>
+                    </div>
+                    <div id="divChaoHoi" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Tìm số chẵn & số lẻ</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Số nguyên 1</label>
+                                <input type="number"  id="so1"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Số nguyên 2</label>
+                                <input type="number" id="so2" />
+                            </div>
+                            <div class="form-group">
+                                <label>Số Nguyên 3</label>
+                                <input type="number" id="so3" />
+                            </div>
+                            <button id="btnChanLe" class="btn btn-success">
+                                Kết quả
+                            </button>
+                        </form>
+                    </div>
+                    <div id="divChanLe" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-danger">Tam giác </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label>cạnh a</label>
+                                <input type="text"  id="canha"/>
+                            </div>
+                            <div class="form-group">
+                                <label>cạnh b</label>
+                                <input type="text" id="canhb" />
+                            </div>
+                            <div class="form-group">
+                                <label>cạnh c</label>
+                                <input type="text" id="canhc" />
+                            </div>
+                            <button id="btnTamGiac" class="btn btn-success">
+                                Kết quả
+                            </button>
+                        </form>
+                    </div>
+                    <div id="divTamGiac" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="JS/baitap1.js"></script>
+    <script src="JS/baitap2.js"></script>
+    <script src="./JS/baitap3.js"></script>
+    <script src="./JS/baitap4.js"></script>
+</body>
+</html>
